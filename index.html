@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1>Form</h1>
+    <form action="#">
+        <fieldset>
+            <legend>
+                Моя первая форма
+            </legend>
+            <label for="fio">FIO</label>
+            <input type="text" id="fio">
+            <p>
+                <label for="male">Мужской</label>
+                <input type="checkbox" id="male">
+                <label for="femail">Женский</label>
+                <input type="checkbox" id="femail">
+            </p>
+            <p>
+                <label for="gos">Госслужащий</label>
+                <input type="radio" name="rad" id="gos">
+                <label for="bus">Сотрудник бизнес-структуры</label>
+                <input type="radio" name="rad" id="bus">
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="test@test.ru">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" placeholder="+7(xxx) xxx xx xx">
+            </p>
+            <p>
+                <input type="button" value="Send">
+            </p>
+        </fieldset>
+    </form>
 </body>
 </html>

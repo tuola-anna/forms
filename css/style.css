@@ -1,0 +1,13 @@
+form{
+    width:40%;
+}
+input[type="text"],input[type="email"],input[type="tel"]{
+    width:200px;
+    height:20px;
+    border:blue 2px solid;
+    border-radius: 10px;
+}
+label{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
